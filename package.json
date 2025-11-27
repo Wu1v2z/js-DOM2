@@ -12,5 +12,14 @@
     "http-server": "^14.1.1",
     "live-server": "^1.2.2"
   },
-  "description": ""
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wu1v2z/js-DOM2.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Wu1v2z/js-DOM2/issues"
+  },
+  "homepage": "https://github.com/Wu1v2z/js-DOM2#readme"
 }

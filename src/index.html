@@ -3,23 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS DOM Gallery Assignment</title>
     <link rel="stylesheet" href="styles.css">
-    <title>Галерея фотографій</title>
 </head>
 <body>
-    <header>
-        <h1>FOTO IMAGE LIST</h1>
-    </header>
-    <main>
-        <div id="gallery" class="gallery"></div>
-        <div class="buttons">
-            <button id="loadMore">Завантажити ще 4 картинки</button>
-            <button id="clearGallery">Очистити галерею</button>
-            <button id="removeLast">Видалити останню картинку</button>
-            <button id="reverseGallery">Перевернути галерею</button>
-            <button id="shuffleGallery">Перемішати галерею</button>
-        </div>
-    </main>
-    <script src="script.js"></script>
+    
+    <div class="container">
+        <header>
+            <h1>GALERIA</h1>
+        </header>
+
+        <main>
+            <div id="gallery" class="gallery-grid"></div>
+
+            <div class="controls">
+                <button id="load-more" class="btn btn-primary">Завантажити ще</button>
+                <button id="clear-gallery" class="btn btn-danger">Очистити галерею</button>
+                <button id="remove-last" class="btn btn-warning">Видалити останню</button>
+                <button id="reverse-gallery" class="btn btn-secondary">Перевернути</button>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js" defer></script>
 </body>
 </html>

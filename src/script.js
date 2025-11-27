@@ -26,8 +26,8 @@ async function fetchImages() {
         currentPage++;
 
     } catch (error) {
-        console.error("Сталася помилка:", error);
-        alert("Не вдалося завантажити зображення. Перевірте консоль.");
+        console.error("помилка:", error);
+        alert("Не вдалося завантажити. Перевірте консоль.");
     } finally {
 
         loadMoreBtn.disabled = false;
@@ -59,7 +59,7 @@ removeLastBtn.addEventListener('click', () => {
     if (lastImg) {
         lastImg.remove();
     } else {
-        alert("Галерея вже порожня!");
+        alert("Галерея порожня!");
     }
 });
 

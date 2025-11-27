@@ -8,8 +8,8 @@
 
 body {
     font-family: 'Roboto Mono', monospace; 
-    background-color: #121418;
-    color: #b0b8c3;
+    background-color: #4b608b;
+    color: #495360;
     padding: 20px;
     min-height: 100vh;
 }
@@ -19,7 +19,7 @@ body {
     margin: 0 auto;
     text-align: center;
     background-color: #1b1e24;
-    border: 1px solid #30363d;
+    border: 1px solid #9fafc0;
     padding: 25px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
     border-radius: 8px;
@@ -29,7 +29,7 @@ header h1 {
     margin-bottom: 30px;
     color: #e6edf3;
     text-transform: uppercase;
-    border-bottom: 1px solid #2d333b;
+    border-bottom: 1px solid #80a1cd;
     padding-bottom: 15px;
     letter-spacing: 3px;
 }
@@ -41,7 +41,7 @@ header h1 {
     margin-bottom: 40px;
     padding: 20px;
     background-color: #0d1117;
-    border: 1px solid #30363d;
+    border: 1px solid #2b5b92;
     min-height: 200px; 
     border-radius: 4px;
 }
@@ -88,8 +88,8 @@ header h1 {
 }
 
 .btn-primary {
-    border-color: #58a6ff;
-    color: #58a6ff;
+    border-color: #aab9ca;
+    color: #05101d;
 }
 .btn-primary:hover { background-color: rgba(88, 166, 255, 0.1); }
 
@@ -97,16 +97,16 @@ header h1 {
     border-color: #f85149;
     color: #f85149;
 }
-.btn-danger:hover { background-color: rgba(248, 81, 73, 0.1); }
+.btn-danger:hover { background-color: rgba(194, 37, 28, 0.1); }
 
 .btn-warning {
     border-color: #d29922;
     color: #d29922;
 }
-.btn-warning:hover { background-color: rgba(210, 153, 34, 0.1); }
+.btn-warning:hover { background-color: rgba(195, 157, 76, 0.1); }
 
 .btn-secondary {
     border-color: #8b949e;
     color: #8b949e;
 }
-.btn-secondary:hover { background-color: rgba(139, 148, 158, 0.1); }
+.btn-secondary:hover { background-color: rgba(60, 118, 183, 0.1); }
